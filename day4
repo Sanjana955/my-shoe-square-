@@ -1,0 +1,1124 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "80aa1c9e-8e61-4095-a56c-35f0814e0f1b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Has the student passed? True\n"
+     ]
+    }
+   ],
+   "source": [
+    "score = 75\n",
+    "has_passed = (score >= 60)  # result is True because  75 is grater than 60 \n",
+    "print(\"Has the student passed?\", has_passed)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "fcfd1f3b-5314-44ce-b4f2-b00b10d5ee9c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "(score >= 60)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0a6f1298-1eb7-4b3b-bacb-0557daf8a271",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# scenario 2 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "d76fd14f-fb90-4a0c-9f55-993af321ae53",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "item_price\n"
+     ]
+    }
+   ],
+   "source": [
+    "item1 = 40\n",
+    "item2 = 50\n",
+    "item_price = (item < 50)  # result is True because  75 is grater than 60 \n",
+    "print(\"item_price\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "71bb40cc-83a1-4217-9497-3f337467deb5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 7,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "item_price >= 50"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "5d925813-5774-4f9d-9ec3-49fa44bfadde",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "logical operator "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b82cd274-b1e0-49ea-b0cf-1f376b50c71d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "True 1\n",
+    "False 0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "b788d0e0-38a8-47ee-909c-8db7c336465b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3>2 and 3<2\n",
+    "True and False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "cbfa8872-6aec-4681-8289-c10594f2615b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 12,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "3>2 and 4>5\n",
+    "True and False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "35ad17d4-7dae-4a11-a468-b1a41c21e377",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "1*1 = 1\n",
+    "1*0 = 0\n",
+    "0*1 = 0\n",
+    "0*0 = 0"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "70e6db1d-cb93-4253-a2ac-b8d6d9d3a1d9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Bitwise Operator"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "0709ca86-0109-4f46-b60b-21d16e63555c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "1\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 5\n",
+    "b = 3\n",
+    "result = a & b\n",
+    "print(result)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "dd75db42-712b-4d0d-b795-22bb90c667e1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "4"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "5 & 6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d1bdb5c4-9510-4ca9-915f-780e516bfe70",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Membership operator "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "36609041-0fe3-4945-a086-ad576a36e71c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "in operator : check if a specified value or variable is present in a sequence. if the avlues is foundthe expression retirn true "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "1d658b76-f39a-4bd9-9a5c-40f1004f4ea6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_list = [1,2,3,4,5]\n",
+    "print(3 in my_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "53180c24-b95b-4bb6-b377-3b0ef883ae3c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_string = \"hello, world\"\n",
+    "print(\"world\" in my_string)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "52f63555-3d70-4e2f-acae-dfd0e15c418d",
+   "metadata": {},
+   "source": [
+    "not in operator : check if a specified value or variable is not present in a sequence if the value is not foundd, the operation returns true other wise it return false \n",
+    "example : my_list = [1,2,3,4,5]\n",
+    "            print(6 not in my_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "1c4e7583-e7db-4000-b95b-a9a68c54c8d3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_list = [1,2,3,4,5]\n",
+    "print(6 not in my_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "35303cfa-c79e-462c-aedc-0cdc339ac858",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_string = \"hello, world\"\n",
+    "print(\"sanjan\" not in my_string)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "9c0517c0-78d6-4f7f-957a-f790f308f3fa",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "fruit = [\"apple\", \"banana\", \"cherry\"]\n",
+    "print(\"grape\" not in fruit)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "12375c4e-1adc-4827-aa82-f40daa2d10fb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "players = [\"RohitSharma\", \"virat\", \"Dhoni\", \"Siraj\"]\n",
+    "print(\"siraj\" not in players)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "6ff7453d-7d7d-457a-a139-fa441690ad14",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "False\n"
+     ]
+    }
+   ],
+   "source": [
+    "message = \"Welcome to python programming!\"\n",
+    "print(\"Java\" in message)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "15bb6e89-1f1b-436d-9ab4-64d463f28397",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "message = \"Welcome to python programming!\"\n",
+    "print(\"Java\" not in message)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9454c23a-c81b-4399-befa-aca50e6a0b72",
+   "metadata": {},
+   "source": [
+    "Using not in with a Dictionary "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "f5ae05df-8938-47c2-9853-6e29c6b9c798",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_dict = {\"name\": \"Sanjana\", \"age\":21, \"city\": \"Bengaluru\"}\n",
+    "print(\"name\" in my_dict)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "63291ba4-b735-4f70-893b-0b5d551c4a9a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "# using keys and values \n",
+    "my_dict = {\"name\": \"Sanjana\", \"age\":21, \"city\": \"Bengaluru\"}\n",
+    "print(\"Address\" not in my_dict)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "4a4c039f-8e67-4b57-b435-a25d97f85b35",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True\n"
+     ]
+    }
+   ],
+   "source": [
+    "# using values \n",
+    "my_dict = {\"name\": \"Sanjana\", \"age\":21, \"city\": \"Bengaluru\"}\n",
+    "print(\"Sanjana\"  not in my_dict)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4cbcf7f0-7894-49b6-b140-5e47f5a9291b",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "condition statement"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "5b165932-a769-450b-8b7c-49a1e214d10f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = [1,2,3,4,5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "b82fc6ec-d296-438d-a58f-d71ca4d80894",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 44,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "1 in a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "17d4c601-e181-4033-ba9a-9708458569d2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "i got it \n",
+      "This will be printed\n"
+     ]
+    }
+   ],
+   "source": [
+    " if 1 in a :\n",
+    "     print(\"i got it \")\n",
+    "print(\"This will be printed\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4b725930-1e8a-4322-87a0-48abba8e1e2d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "age = 18 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "87f93588-7663-45c0-9e57-63055d854506",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "age >= 18"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3398f02c-bd5a-4e4b-8fea-9833cad0a137",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "age = 19"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "394b2090-81cf-4cd6-ab39-377032a13e57",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 50,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "age <= 19"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "096fa66c-4391-4773-a127-a032c65a3641",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "you are Elligilble to vote\n"
+     ]
+    }
+   ],
+   "source": [
+    "if age >= 18:\n",
+    "    print(\"you are Elligilble to vote\")    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "2fcdf82b-47a4-4880-845f-52118c04b788",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "you are Elligilble to vote\n"
+     ]
+    }
+   ],
+   "source": [
+    "if age <= 18:\n",
+    "    print(\"you are Elligilble to vote\")    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "ea4c821c-408f-4eea-ac9b-19213b100ee3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# If statement \n",
+    "if 5 < 2:\n",
+    "    print(\"Greater\")       # nothing got printed "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "bd5653e5-fb8f-460c-8ac3-548d5f4ddd59",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Greater\n"
+     ]
+    }
+   ],
+   "source": [
+    "# if statement in single line \n",
+    "if 5>2: print(\"Greater\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "68c11f32-6eb3-4de1-bc53-abc77a7c25e3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Greater\n",
+      "This will be printed anyway\n"
+     ]
+    }
+   ],
+   "source": [
+    "# if statement with Rest of the code\n",
+    "if 5>2:\n",
+    "    print(\"Greater\")\n",
+    "print(\"This will be printed anyway\")    \n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "7788083f-f0b8-412f-ac5e-89dc614e1fbe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "if statement with logical opeartor\n",
+      "Statement 2\n"
+     ]
+    }
+   ],
+   "source": [
+    "# if statement with Logical operator \n",
+    "if 5>2 or 7<3:       True or False                          #anyone has to be true \n",
+    "print(\"if statement with logical opeartor\")\n",
+    "print(\"Statement 2\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "d42d319d-3ea1-40dc-a728-6df52bcc9cde",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "if statement with logical opeartor\n",
+      "Statement 2\n"
+     ]
+    }
+   ],
+   "source": [
+    "# if statement with Logical operator                        #both has to be true\n",
+    "if 5>2 or 7<3:       True or False\n",
+    "print(\"if statement with logical opeartor\")\n",
+    "print(\"Statement 2\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "946e776b-e1f3-464b-913a-630a73db46b3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "If else "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "48fd8dbd-7aec-48fc-860b-9eb248c3f13f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "it's a cool day.\n",
+      "This will be printed\n"
+     ]
+    }
+   ],
+   "source": [
+    "temperature = 30\n",
+    "if temperature < 25:\n",
+    "    print(\"It's a hot day.\")\n",
+    "else:\n",
+    "    print(\"it's a cool day.\")\n",
+    "    print(\"This will be printed\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c1885645-00cf-4fe5-ad7e-c3c8f3da928a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Example "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "94af1b16-6155-4140-b572-7f2324702435",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the number 25\n"
+     ]
+    }
+   ],
+   "source": [
+    "num = int(input(\"Enter the number\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "72843d02-6388-40fe-9037-b3da1db42e30",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Number is Odd\n"
+     ]
+    }
+   ],
+   "source": [
+    "if num%2==0:\n",
+    "    print(\"Number is Even\")\n",
+    "else:\n",
+    "    print(\"Number is Odd\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "f9590cea-c1d6-4624-80f1-6e9abc8ea2be",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the number 22\n"
+     ]
+    }
+   ],
+   "source": [
+    "num = int(input(\"Enter the number\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 76,
+   "id": "c3a562df-8df8-4e0f-b7cc-d318cf034b64",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Number is Even\n"
+     ]
+    }
+   ],
+   "source": [
+    "if num%2==0:\n",
+    "    print(\"Number is Even\")\n",
+    "else:\n",
+    "    print(\"Number is Odd\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 81,
+   "id": "b46132dd-e093-49a1-8c54-ee7c8e41ade6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter the number 75\n"
+     ]
+    }
+   ],
+   "source": [
+    "num = int(input(\"Enter the number\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 85,
+   "id": "c396b68e-3661-4fad-a330-86f7e52f9d4a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Grade: A\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks = 75\n",
+    "\n",
+    "if marks >= 60:\n",
+    "    print(\"Grade: A\")\n",
+    "elif marks >= 80:\n",
+    "    print(\"Grade: B\")\n",
+    "elif marks >= 70:\n",
+    "    print(\"Grade: C\")\n",
+    "else: \n",
+    "    print(\"Grade: D\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "id": "2363da27-0782-4109-933d-5e882353e9f2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Grade: A\n",
+      "Grade: C\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks = 75\n",
+    "\n",
+    "if marks >= 60:\n",
+    "    print(\"Grade: A\")\n",
+    "if marks >= 80:\n",
+    "    print(\"Grade: B\")\n",
+    "if marks >= 70:\n",
+    "    print(\"Grade: C\")\n",
+    "else: \n",
+    "    print(\"Grade: D\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 113,
+   "id": "0c53c494-294e-4bbe-ac59-f8cb46082595",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "number = -3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 114,
+   "id": "a3ac9982-727c-4b6a-aee6-1589ee142de7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The number is negative\n",
+      "This will be print anyway\n"
+     ]
+    }
+   ],
+   "source": [
+    "if number% 2== 0 :\n",
+    "    print(\"The number is Positive\")\n",
+    "else:\n",
+    "    print(\"The number is negative\")\n",
+    "    print(\"This will be print anyway\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 115,
+   "id": "7e98b0dd-5b01-4974-b856-c1b6fa02b109",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "number = 4"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 116,
+   "id": "7ae156b9-6df7-4892-a7cf-52c82d834f4f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The number is Positive\n"
+     ]
+    }
+   ],
+   "source": [
+    "if number% 2== 0 :\n",
+    "    print(\"The number is Positive\")\n",
+    "else:\n",
+    "    print(\"The number is negative\")\n",
+    "    print(\"This will be print anyway\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "42c3ad74-9f6a-45b3-94be-63a5e8f3b007",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter temperature 5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Cold\n"
+     ]
+    }
+   ],
+   "source": [
+    "temp = int(input(\"Enter temperature\"))\n",
+    "if temp <0:\n",
+    "    print(\"freezing\")\n",
+    "elif temp <= 10:\n",
+    "    print(\"Cold\")\n",
+    "elif temp <= 25:\n",
+    "    print(\"Warm\")\n",
+    "else: \n",
+    "    print(\"hot\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "b61cc341-2ef6-4463-868b-1ed8b319a133",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter temperature 26\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hot\n"
+     ]
+    }
+   ],
+   "source": [
+    "temp = int(input(\"Enter temperature\"))\n",
+    "if temp <0:\n",
+    "    print(\"freezing\")\n",
+    "elif temp <= 10:\n",
+    "    print(\"Cold\")\n",
+    "elif temp <= 25:\n",
+    "    print(\"Warm\")\n",
+    "else: \n",
+    "    print(\"hot\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "11bcb060-423f-4c5e-b704-696de03c181e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter temperature -2\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "freezing\n"
+     ]
+    }
+   ],
+   "source": [
+    "## temp = int(input(\"Enter temperature\"))\n",
+    "if temp <0:\n",
+    "    print(\"freezing\")\n",
+    "elif temp <= 10:\n",
+    "    print(\"Cold\")\n",
+    "elif temp <= 25:\n",
+    "    print(\"Warm\")\n",
+    "else: \n",
+    "    print(\"hot\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "eb84c530-f000-41b9-8385-4fa79c2e0f1c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
